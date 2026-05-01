@@ -1,0 +1,14 @@
+{
+  "name": "booking-playwright-final",
+  "version": "1.0.0",
+  "description": "Test otomatis booking integrity - siap run tanpa setup tambahan",
+  "scripts": {
+    "test"        : "playwright test",
+    "test:tc001"  : "playwright test tc001",
+    "test:tc002"  : "playwright test tc002",
+    "test:laporan": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
